@@ -5,6 +5,7 @@ import sitemap from '@astrojs/sitemap';
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://roritchi.github.io/astro-test/',
+	site: 'https://roritchi.github.io',
+	base: '/astro-test',
 	integrations: [mdx(), sitemap()],
 });
